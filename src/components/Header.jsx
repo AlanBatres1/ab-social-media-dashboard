@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export default function div() {
+export default function Header() {
   const [darkMode, setDarkMode] = useState(false)
 
   const toggleTheme = () => {
