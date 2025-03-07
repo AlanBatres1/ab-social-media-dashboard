@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export default function Header() {
+export default function div() {
   const [darkMode, setDarkMode] = useState(false)
 
   const toggleTheme = () => {
@@ -17,7 +17,7 @@ export default function Header() {
   
   return (
     <>
-      <header className="relative z-10 max-w-7xl mx-auto flex items-center flex-col md:flex-row justify-between ">
+      <div className="relative z-10 max-w-7xl mx-auto flex items-center flex-col md:flex-row justify-between ">
         <div>
           <h1 className="font-bold text-2xl text-slate-800 dark:text-white">
             Social Media Dashboard
@@ -34,7 +34,7 @@ export default function Header() {
             <div className="ball"></div>
           </label>
         </div>
-      </header>
+      </div>
     </>
   );
 }
