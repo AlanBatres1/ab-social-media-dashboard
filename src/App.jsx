@@ -7,7 +7,7 @@ import Youtube from "/images/icon-youtube.svg"
 import Up from "/images/icon-up.svg"
 import Down from "/images/icon-down.svg"
 import OverviewCard from './components/OverviewCard'
-import Header from './components/header'
+import HeaderTop from './components/HeaderTop'
 
 function App() {
 
@@ -15,7 +15,7 @@ function App() {
     <>
       <div className='bg-[hsl(0,0%,100%)] p-8 min-h-screen dark:bg-[hsl(230,17%,14%)]'>
         <div className="bg-slate-100 dark:bg-[hsl(232,19%,15%)] h-52 w-full absolute top-0 left-0 rounded-b-3xl" style={{ zIndex: 0, }}></div>
-        {/* <Header /> */}
+        <HeaderTop/>
         <div className='relative mt-10 z-10 max-w-7xl mx-auto grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4'>
           <FollowersCard platform="Facebook" userName="@nathanf" followers={1987} thousand="" change={12} icon={Facebook} changeIcon={Up} textColor={"text-green-500"} Type={"F O L L O W E R S"} border={"bg-blue-600"} />
           <FollowersCard platform="Twitter" userName="@nathanf" followers={1044} thousand="" change={99} icon={Twitter} changeIcon={Up} textColor={"text-green-500"} Type={"F O L L O W E R S"} border={"bg-blue-500"} />
