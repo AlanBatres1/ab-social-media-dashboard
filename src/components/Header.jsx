@@ -4,19 +4,19 @@ export default function div() {
   const [darkMode, setDarkMode] = useState(false)
 
   const toggleTheme = () => {
-    const body = document.querySelector("body")
+    // const body = document.querySelector("body")
 
-    if (!darkMode) {
-      body.classList.add("dark")
-    } else {
-      body.classList.remove("dark")
-    }
+    // if (!darkMode) {
+    //   body.classList.add("dark")
+    // } else {
+    //   body.classList.remove("dark")
+    // }
 
-    setDarkMode(!darkMode)
+    // setDarkMode(!darkMode)
   }
   
   return (
-    <>
+  
       <div className="relative z-10 max-w-7xl mx-auto flex items-center flex-col md:flex-row justify-between ">
         <div>
           <h1 className="font-bold text-2xl text-slate-800 dark:text-white">
@@ -35,6 +35,6 @@ export default function div() {
           </label>
         </div>
       </div>
-    </>
+    
   );
 }
