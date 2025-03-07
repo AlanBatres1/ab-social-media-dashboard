@@ -1,12 +1,13 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Name**: Alan Batres
+<br/>
+**Date**: March 7th, 2025
+<br/>
+**Project Name**: Social Media Dashboard in React
+<br/>
+**Description**: This project involves building a responsive React application organized with a components folder. It should be designed for both mobile and desktop devices and include a light and dark mode feature. The provided assets must be utilized, and the application can be styled using either Bootstrap or Tailwind CSS. The main goal is to closely replicate the given design while ensuring a user-friendly and visually appealing interface.
+<br/>
+**Peer**: 
+<br/>
+**Review**: 
+<br/>
+<br/>
