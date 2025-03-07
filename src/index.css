@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: Inter;
-  src: url(/public/Fonts/Inter-VariableFont_opsz\,wght.ttf);
+  src: url(/public/Fonts/Inter-VariableFont_opsz,wght.ttf);
 }
 
 .toggle {
